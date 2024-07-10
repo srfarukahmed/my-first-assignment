@@ -1,0 +1,102 @@
+.nav-bar {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.nav-1 a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+}
+
+.nav-btn {
+
+    padding: 17px 24px 17px 24px;
+    background-color: white;
+
+}
+
+.nav-btn a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.banner {
+
+    background-image: url(../assets/Hero-bg.png);
+    text-align: center;
+
+}
+
+.banner-title {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    padding: 21px 24px 21px 24px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-title {
+    text-align: center;
+
+}
+
+.section-description {
+    text-align: center;
+}
+
+.about-item {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.img-position {
+    float: right;
+}
+
+/* Sections */
+.section-1 {
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    
+}
+.second-div{
+    
+}
+
+.div-1 {
+    text-align: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.div-a a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(13, 19, 33);
+}
+.div-2{
+    padding: 48px;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
