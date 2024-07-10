@@ -52,51 +52,203 @@
     color: white;
 }
 
-.section-title {
-    text-align: center;
-
-}
-
-.section-description {
-    text-align: center;
-}
-
-.about-item {
-    list-style: none;
-    justify-content: space-between;
-}
-
-.img-position {
-    float: right;
-}
 
 /* Sections */
 .section-1 {
+    /* padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02); */
+
+}
+
+.second-div {
     padding: 80px 97px 80px 97px;
     border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02);
-    
+    background-color: aliceblue;
+
 }
-.second-div{
-    
+
+.div-title {
+    text-align: center;
 }
 
 .div-1 {
-    text-align: center;
     padding: 20px;
     background-color: antiquewhite;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.div-a a{
+.div-a a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(13, 19, 33);
 }
-.div-2{
+
+.div-2a {
     padding: 48px;
     background-color: bisque;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.div-3 {
+
+    padding: 48px;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-b {
+    text-align: left;
+}
+
+/* .........Second section .........*/
+
+.sd-title {
+    text-align: center;
+}
+
+.div-video {
+    padding: 32px;
+    margin: 48px 0px;
+    background-color: azure;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    align-items: center;
+}
+
+/* section current target */
+
+.ct-1 {
+    text-align: center;
+
+    padding: 50px;
+}
+
+.skills {
+    display: flex;
+    gap: 20px;
+    text-align: left;
+
+}
+
+.skill-1 {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 76, 30, 0.05);
+
+}
+
+.skill-2 {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgba(0, 76, 232, 0.05);
+
+}
+
+.skill-3 {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 223, 0, 0.05);
+
+}
+
+.skl {
+    list-style: none;
+    font-weight: bold;
+    color: black;
+}
+
+.skill-title {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.div-spt {
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+    width: 1140px;
+    height: 314px;
+    left: 150px;
+    right: 150px;
+    top: 4752px;
+    bottom: 179px;
+    margin-left: 130px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.spt-title {
+    font-weight: bolder;
+    font-size: 48px;
+    color: white;
+}
+
+.spt-desc {
+    color: white;
+}
+
+.spt-btn {
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.spt-text {
+
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ftr {
+    width: 1440px;
+    height: 100px;
+    top: 5145px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px 100px 15px 80px;
+
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 10px;
+    text-align: center;
+    gap: 450px;
+
+
+
+}
+
+.ftr-desc {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.div-social {
+    list-style: none;
+    display: flex;
+    margin-right: 15px;
+    gap: 35px;
+    margin-top: 20px;
+
 }
