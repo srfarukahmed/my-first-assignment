@@ -92,7 +92,7 @@
 .second-div {
     padding: 80px 97px 80px 97px;
     border-radius: 16px;
-    background-color: aliceblue;
+    background-color: rgba(13, 19, 33, 0.02);
 
 }
 
@@ -137,14 +137,19 @@
 .sd-title {
     text-align: center;
 }
+.sd-titles {
+    text-align: center;
+    margin-right: 300px 300px;
+}
+
 
 .div-video {
     padding: 32px;
     margin: 48px 0px;
-    background-color: azure;
+    background-color: rgba(224, 226, 233, 0.2);
 
     box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
+    border: 1px solid border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     align-items: center;
 }
