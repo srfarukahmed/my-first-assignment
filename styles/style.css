@@ -102,31 +102,78 @@
 
 .div-1 {
     padding: 20px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-color: rgba(13, 19, 33, 0.02);
     margin-top: 15px;
     margin-bottom: 15px;
+    border-radius: 16px;
 }
 
 .div-a a {
     text-decoration: none;
     font-weight: bold;
     color: rgb(13, 19, 33);
+    border-radius: 16px;
+    font-size: 15px;
+    color: black;
+}
+.sec-btn{
+    background-color: white;
 }
 
-.div-2a {
+
+.sec-1-1 {
     padding: 48px;
-    background-color: bisque;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 200px;
+    display: flex;
+    gap: 200px;
+    float: right;
 }
 
-.div-3 {
 
+.sec-1-2{
     padding: 48px;
-    background-color: bisque;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 200px;
+    display: flex;
+    gap: 200px;
+
 }
+.sec-1-2 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(13, 19, 33);
+    border-radius: 16px;
+    font-size: 15px;
+    color: black;
+
+}
+.div-2ac {
+    padding: 48px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 200px;
+    display: flex;
+    gap: 200px;
+    float: right;
+
+}
+
 
 .div-b {
     text-align: left;
@@ -137,6 +184,7 @@
 .sd-title {
     text-align: center;
 }
+
 .sd-titles {
     text-align: center;
     margin-right: 300px 300px;
@@ -239,6 +287,7 @@
     background-color: rgb(255, 255, 255);
     font-weight: bolder;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .spt-text {
